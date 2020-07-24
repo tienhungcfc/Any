@@ -9,6 +9,8 @@ a.a = true; /// {"a": true}
 a.a = new object[] {0,1}; /// {"a": [0,1]}
 a.a[0].title = "tille a"; /// {"a": [{"title": "title a"}, 1]}
 a.a = 1000; /// {"a": 1000}
+a.a.b.c = 0; /// Không hợp lệ Kq vẫn là {"a": 1000}
+a.a.b = 100; /// {"a": { "a": {"b": 100}}}
 ```
 ###### Truy vấn theo key
 ```c#
