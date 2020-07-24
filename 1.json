@@ -1,0 +1,25 @@
+{
+  "fn": "Ng Hùng",
+  "phone": "0936263386",
+  "orders": [
+    {
+      "id": 100,
+      "total": 1,
+      "topay": 1000000,
+      "items": [
+        {
+          "id": 101,
+          "title": "san pham A",
+          "price": 100000,
+          "priceorder": 200000,
+          "qty": 3
+        },
+        {
+          "id": 102,
+         
+          "qty": 1
+        }
+      ]
+    }
+  ]
+}
