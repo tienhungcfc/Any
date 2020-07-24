@@ -54,7 +54,42 @@
     <meta charset="utf-8" />
 </head>
 <body>
-    
+<!--
+result:
+[
+{
+"id": 101,
+"title": "san pham A",
+"price": 100000,
+"priceorder": 200000,
+"qty": 3,
+"hh": 1001,
+"ee": "0",
+"ff": true
+},
+{
+"id": 102,
+"qty": 1,
+"title": "hhh",
+"hh": 1002,
+"ee": "1",
+"ff": true
+},
+{
+"id": 103,
+"hh": 1003,
+"ee": "2",
+"ff": true
+},
+{
+"id": 201,
+"qty": 909,
+"hh": 1004,
+"ee": "3",
+"ff": true
+}
+]
+-->
 
 </body>
 </html>
